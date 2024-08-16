@@ -1,0 +1,14 @@
+{
+	"name": "olivia-map",
+	"description": "Map pin drop capability.",
+	"type": "visualization",
+	"version": "1.0.0",
+	"author": "",
+	"homepage": "",
+	"keywords": "qlik-sense, visualization",
+	"license": "",
+	"repository": "",
+	"dependencies": {
+		"qlik-sense": ">=3.0.x"
+	}
+}

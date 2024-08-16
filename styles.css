@@ -1,0 +1,30 @@
+/*
+ * Qlik Sense set the CSS class qv-object-[extension name] on your 
+ * visualizations and your CSS rules should be prefixed with that. 
+ *
+ * Reference: https://help.qlik.com/en-US/sense-developer/February2024/Subsystems/Extensions/Content/Sense_Extensions/Howtos/working-with-styling.htm
+ */
+
+ .qv-object-pindrop-pindrop-icon {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: rotate(45deg) scale(var(--ggs,1));
+    width: 18px;
+    height: 18px;
+    border-radius: 100% 100% 0 100%;
+    border: 2px solid;
+    margin-top: -4px
+}
+.qv-object-pindrop-pindrop-icon::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    top: 3px;
+    left: 3px;
+    border-radius: 40px
+}
